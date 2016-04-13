@@ -1,5 +1,5 @@
 # storm-metrics-influxdb
-Storm implementation of a metrics consumer for influxdb (> 0.9)
+Apache Storm IMetricsConsumer implementation for influxdb (> 0.9)
 
 ### Configuration (storm.yaml) 
 ```yaml
