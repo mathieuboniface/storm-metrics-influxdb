@@ -1,8 +1,8 @@
 # storm-metrics-influxdb
 Storm implementation of a metrics consumer for influxdb (> 0.9)
 
-### Configuration 
-```code
+### Configuration (storm.yaml) 
+```yaml
 topology.metrics.consumer.register:
   - class: "fr.boniface.storm.metrics.influxdb.InfluxDBMetricsConsumer"
     parallelism.hint: 1
