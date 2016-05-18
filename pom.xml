@@ -7,7 +7,7 @@
   <artifactId>storm-metrics-influxdb</artifactId>
 
   <packaging>jar</packaging>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>storm-metrics-influxdb</name>
 
   <dependencies>
@@ -15,7 +15,7 @@
     <dependency>
       <groupId>org.apache.storm</groupId>
       <artifactId>storm-core</artifactId>
-      <version>0.9.6</version>
+      <version>1.0.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
